@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    font-family: var(--font-padrao);
+}
+:root {
+    --font-padrao: Arial, Helvetica, sans-serif;
+    --font-titulo: ;
+    --font-destaque: ;
+    --cor0: ;
+    --cor1: ;
+    --cor2: ;
+    --cor3: ;
+}
+header {
+    font-family: var(--font-titulo);
+    background-color: orange;
+    padding: 20px;
+}
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+}
+main {
+    padding: 20px;
+}
+section#paragrafo-1 {
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px #0000004f;
+    min-width: 210px;
+    max-width: 600px;
+}
+h1 {
+    font-size: 7vw;
+    padding: 10px;
+}
+p {
+    font-size: 2.3vw;
+}
+
