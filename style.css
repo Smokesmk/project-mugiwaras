@@ -51,7 +51,7 @@ h1 {
 .img {
     padding: 20px;
     background-image: url("/imagens/one-piece-2.jpeg");
-    background-position: right;
+    background-position: top right;
     background-size: cover;
     background-attachment: fixed;
 }
