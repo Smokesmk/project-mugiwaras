@@ -12,20 +12,34 @@
     --cor4: #E6CC00;
     --cor5: #E3B82D;
     --cor6: #ffffff;
+    --cor7: #ff0000;
+    --cor8: #0abb27;
 }
 
 * {
     margin: 0;
     font-family: var(--font-normal);
 }
-
 header {
     position: sticky;
     top: 0%;
-    background-color: var(--cor3);
+}
+header .collapse-home {
+    background-color: var(--cor7);
     padding: 10px;
 }
-
+header .collapse-sm {
+    background-color: var(--cor8);
+    padding: 10px;
+}
+header .collapse-cp {
+    background-color: var(--cor2);
+    padding: 10px;
+}
+header .collapse-rs {
+    background-color: var(--cor4);
+    padding: 10px;
+}
 header nav a {
     margin: 10px;
     font-family: var(--font-destaque);
@@ -33,14 +47,25 @@ header nav a {
     color: var(--cor6);
     text-decoration: none;
 }
-.link-right-active {
+.nav-link {
     float: right;
 }
-.link-right-active:hover {
-    color: var(--cor2);
+#luffy-color-link:hover {
+    color: var(--cor7);
     transition: 0.4s ease-in-out;
 }
-
+#zoro-color-link:hover {
+    color: var(--cor8);
+    transition: 0.4s ease-in-out;
+}
+#nami-color-link:hover {
+    color: var(--cor3);
+    transition: 0.4s ease-in-out;
+}
+#sanji-color-link:hover {
+    color: var(--cor4);
+    transition: 0.4s ease-in-out;
+}
 h1 {
     max-width: 600px;
     color: var(--cor2);
@@ -48,19 +73,28 @@ h1 {
     font-weight: bold;
     font-size: 7vw;
 }
-.img {
+#title-home {
+    color: var(--cor7);
+}
+#title-sm {
+        color: var(--cor8);
+}
+#title-rs {
+    color: var(--cor4);
+}
+.img-home {
     padding: 20px;
     background-image: url("/imagens/one-piece-2.jpeg");
     background-position: top right;
     background-size: cover;
     background-attachment: fixed;
 }
-.img > h1 {
+.img-home > h1 {
     padding: 10px;
     border-radius: 20px 20px 0px 0px;
     background-color: #00000081;
 }
-.img > p {
+.img-home > p {
     padding: 10px;
     border-radius: 0px 0px 20px 20px;
     background-color: #00000081;
@@ -68,7 +102,80 @@ h1 {
 .img-right {
     margin-top: 50px;
 }
-.img > p {
+.img-home > p {
+    color: var(--cor6);
+    font-weight: bold;
+    max-width: 600px;
+    font-size: 20px;
+}
+.img-sm {
+    padding: 20px;
+    background-image: url("/imagens/zoro-one-piece-3-752x440.jpg");
+    background-position: left;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.img-sm > h1 {
+    padding: 10px;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #00000081;
+}
+.img-sm > p {
+    padding: 10px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: #00000081;
+}
+.img-sm > p {
+    color: var(--cor6);
+    font-weight: bold;
+    max-width: 600px;
+    font-size: 20px;
+}
+
+.img-cp {
+    padding: 20px;
+    background-image: url("/imagens/1366_2000.jpeg");
+    background-position:  right right;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.img-cp > h1 {
+    padding: 10px;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #00000081;
+}
+.img-cp > p {
+    padding: 10px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: #00000081;
+}
+
+.img-cp > p {
+    color: var(--cor6);
+    font-weight: bold;
+    max-width: 600px;
+    font-size: 20px;
+}
+
+.img-rs {
+    padding: 20px;
+    background-image: url("/imagens/sanji.jpg");
+    background-position: right;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.img-rs > h1 {
+    padding: 10px;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #00000081;
+}
+.img-rs > p {
+    padding: 10px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: #00000081;
+}
+
+.img-rs > p {
     color: var(--cor6);
     font-weight: bold;
     max-width: 600px;
