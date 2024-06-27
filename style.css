@@ -14,6 +14,7 @@
     --cor6: #ffffff;
     --cor7: #ff0000;
     --cor8: #0abb27;
+    --cor9: #d41010;
 }
 
 * {
@@ -51,7 +52,7 @@ header nav a {
     float: right;
 }
 #luffy-color-link:hover {
-    color: var(--cor7);
+    color: var(--cor9);
     transition: 0.4s ease-in-out;
 }
 #zoro-color-link:hover {
@@ -63,7 +64,7 @@ header nav a {
     transition: 0.4s ease-in-out;
 }
 #sanji-color-link:hover {
-    color: var(--cor4);
+    color: var(--cor5);
     transition: 0.4s ease-in-out;
 }
 h1 {
@@ -110,8 +111,8 @@ h1 {
 }
 .img-sm {
     padding: 20px;
-    background-image: url("/imagens/zoro-one-piece-3-752x440.jpg");
-    background-position: left;
+    background-image: url("/imagens/roronoa-zoro-drink-3c442bc12ef090f0995a2cf93a9c4733.jpg");
+    background-position: top right;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -134,8 +135,8 @@ h1 {
 
 .img-cp {
     padding: 20px;
-    background-image: url("/imagens/1366_2000.jpeg");
-    background-position:  right right;
+    background-image: url("/imagens/nami.jpg");
+    background-position: top right;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -159,8 +160,8 @@ h1 {
 
 .img-rs {
     padding: 20px;
-    background-image: url("/imagens/sanji.jpg");
-    background-position: right;
+    background-image: url("/imagens/sanji.webp");
+    background-position: top right;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -180,4 +181,48 @@ h1 {
     font-weight: bold;
     max-width: 600px;
     font-size: 20px;
+}
+footer {
+    background-color: #111010c9;
+    color: #000000b2;
+    padding: 20px;
+    font-weight: bold;
+}
+footer p {
+    
+    padding: 10px;
+}
+footer > p > a {
+    color: var(--cor6);
+    text-decoration: none;
+}
+footer h4 {
+    color: #726e6e;
+}
+footer > p > a:hover {
+    background-color: rgba(240, 248, 255, 0.719);
+    color: #929292;
+    padding: 1px;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+.copyright-warning {
+    text-align: center;
+}
+.credits-dev {
+    text-align: center;
+}
+.copyright-warning > p > a {
+    color: var(--cor6);
+    text-decoration: none;
+}
+.copyright-warning > p > a:hover {
+    text-decoration: solid;
+}
+.credits-dev > p > a {
+    color: var(--cor6);
+    text-decoration: none;
+}
+.credits-dev > p > a:hover {
+    text-decoration: solid;
 }
