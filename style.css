@@ -206,23 +206,3 @@ footer > p > a:hover {
     transition: 0.3s;
     border-radius: 5px;
 }
-.copyright-warning {
-    text-align: center;
-}
-.credits-dev {
-    text-align: center;
-}
-.copyright-warning > p > a {
-    color: var(--cor6);
-    text-decoration: none;
-}
-.copyright-warning > p > a:hover {
-    text-decoration: solid;
-}
-.credits-dev > p > a {
-    color: var(--cor6);
-    text-decoration: none;
-}
-.credits-dev > p > a:hover {
-    text-decoration: solid;
-}
