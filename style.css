@@ -199,10 +199,20 @@ footer > p > a {
 footer h4 {
     color: #726e6e;
 }
-footer > p > a:hover {
-    background-color: rgba(240, 248, 255, 0.719);
-    color: #929292;
+footer > li {
+    list-style: none;
+    padding: 5px;
+}
+.fm {
+    color: var(--cor6);
+    text-decoration: none;
+    list-style: none;
+}
+.fm-center {
+    columns: 4;
+}
+.fmp > p {
     padding: 1px;
-    transition: 0.3s;
-    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
 }
