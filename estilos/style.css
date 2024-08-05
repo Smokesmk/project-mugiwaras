@@ -25,32 +25,42 @@ header {
     position: sticky;
     top: 0%;
 }
+nav {
+    display: none;
+}
+nav#itens > a {
+    margin-top: -45px;
+    color: var(--cor6);
+    font-weight: bolder;
+    float: right;
+    text-decoration: none;
+    padding: 15px;
+}
+span#burger {
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+#icon {
+    height: 50px;
+    width: 55px;
+}
 header .collapse-home {
     background-color: var(--cor7);
     padding: 10px;
 }
 header .collapse-sm {
     background-color: var(--cor8);
-    padding: 10px;
 }
 header .collapse-cp {
     background-color: var(--cor2);
-    padding: 10px;
 }
 header .collapse-rs {
     background-color: var(--cor4);
-    padding: 10px;
 }
-header nav a {
-    margin: 10px;
-    font-family: var(--font-destaque);
-    font-weight: bold;
-    color: var(--cor6);
-    text-decoration: none;
-}
-.nav-link {
-    float: right;
-}
+
 #luffy-color-link:hover {
     color: var(--cor9);
     transition: 0.4s ease-in-out;
@@ -72,13 +82,13 @@ h1 {
     color: var(--cor2);
     font-family: var(--font-title);
     font-weight: bold;
-    font-size: 7vw;
+    font-size: 6vw;
 }
 #title-home {
     color: var(--cor7);
 }
 #title-sm {
-        color: var(--cor8);
+    color: var(--cor8);
 }
 #title-rs {
     color: var(--cor4);
@@ -107,7 +117,7 @@ h1 {
     color: var(--cor6);
     font-weight: bold;
     max-width: 600px;
-    font-size: 20px;
+    font-size: 1.5em;
 }
 .img-sm {
     padding: 20px;
@@ -181,38 +191,4 @@ h1 {
     font-weight: bold;
     max-width: 600px;
     font-size: 20px;
-}
-footer {
-    background-color: #111010c9;
-    color: #000000b2;
-    padding: 20px;
-    font-weight: bold;
-}
-footer p {
-    
-    padding: 10px;
-}
-footer > p > a {
-    color: var(--cor6);
-    text-decoration: none;
-}
-footer h4 {
-    color: #726e6e;
-}
-footer > li {
-    list-style: none;
-    padding: 5px;
-}
-.fm {
-    color: var(--cor6);
-    text-decoration: none;
-    list-style: none;
-}
-.fm-center {
-    columns: 4;
-}
-.fmp > p {
-    padding: 1px;
-    font-size: 14px;
-    text-align: center;
 }
