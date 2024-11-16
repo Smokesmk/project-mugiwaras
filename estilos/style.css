@@ -6,8 +6,9 @@
     --font-title: "Playwrite US Modern", cursive;
     --font-padrao-s: "Poppins", sans-serif;
     --cor1: red;
-    --cor2: orange;
-    --cor3: green;
+    --cor2: rgb(199, 199, 2);
+    --cor3: orange;
+    --cor4: green;
 }
 
 * {
@@ -61,7 +62,33 @@ header {
     color: rgba(17, 15, 15, 0.486);
     transition: .3s;
 }
-
+#navbar-sm {
+    background-color: var(--cor2);
+}
+#img-sm {
+    background-image: url(/imagens/sanji.webp);
+}
+#title-sm {
+    color: var(--cor2);
+}
+#navbar-corp {
+    background-color: var(--cor3);
+}
+#img-corp {
+    background-image: url(/imagens/nami.jpg);
+}
+#title-corp {
+    color: var(--cor3);
+}
+#navbar-rs {
+    background-color: var(--cor4);
+}
+#img-rs {
+    background-image: url(/imagens/roronoa-zoro-drink-3c442bc12ef090f0995a2cf93a9c4733.jpg);
+}
+#title-rs {
+    color: var(--cor4);
+}
 main {
     background-color: rgba(0, 0, 0, 0.534);
     color: white;
