@@ -1,5 +1,5 @@
 # Site Mugiwaras
-O site Mugiwaras está em desenvolvimento tendo apenas a parte introdutória, porém, está em progresso constante e a maioria dos bugs foram consertados e dando prioridade aos dispositivos móveis como Celulares e Tablets. Este projeto é independente e atualmente, as tecnologias foram: 
+O site Mugiwaras está em desenvolvimento tendo apenas a parte introdutória, porém, está em progresso constante e a maioria dos bugs foram consertados e dando prioridade aos dispositivos móveis como: Celulares e Tablets. Este projeto é independente e atualmente, as tecnologias utilizadas foram: 
 
 - [HTML (HyperText Markup Language)](https://www.google.com/search?client=opera-gx&q=html&sourceid=opera&ie=UTF-8&oe=UTF-8)
 
