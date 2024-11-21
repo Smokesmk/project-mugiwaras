@@ -27,9 +27,7 @@ body {
 }
 
 header {
-    width: 100%;
-    position: sticky;
-    top: 0%;
+    width: 100vw;
 }
 .collapse-home {
     background-color : var(--cor1);
@@ -49,12 +47,14 @@ header {
 }
 
 .nav-links {
+    background-color: rgb(77, 76, 76);
     color: white;
     display: block;
     font-family: var(--font-padrao-s);
     font-weight: bold;
     text-align: center;
     text-decoration: none;
+    margin-top: 5px;
     padding: 15px;
 }
 
@@ -111,3 +111,40 @@ main {
     text-align: justify;
     font-size: 1.3em;
 }
+/*.home-pg2 {
+    display: block;
+    background-color: rgb(48, 48, 48);
+    width: 100vw;
+}
+.card {
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    width: 250px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    font-family: var(--font-padrao-s);
+    background-color: black;
+    position: relative;
+    left: 5.5%;
+}
+.card > img {
+    display: block;
+    margin: auto;
+    border: solid 2px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.card > h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+#title2 {
+    text-align: center;
+}*/
